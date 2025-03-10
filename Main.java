@@ -14,13 +14,14 @@ public class Main {
 
             try {
                 int num = Integer.parseInt(input);
-                mf.addNumber(num);
-                System.out.println("Current median: " + mf.getMedian());
+                mf.add(num);
+                System.out.println("Current median: " + mf.findMedian());
             } catch (NumberFormatException e) {
                 System.out.println("Please enter a valid number.");
             }
         }
 
         System.out.println("Goodbye!");
+        scanner.close();
     } 
 }
