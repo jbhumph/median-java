@@ -69,11 +69,19 @@ public class MaxHeap {
     }
 
     // remove and return the maximum element from the heap
-    public int extractMax() {
+    public int remove() {
         int popped = Heap[0];
         Heap[0] = Heap[size--];
         maxHeapify(0);
         return popped;
+    }
+
+    public int peek() {
+        return Heap[0];
+    }
+
+    public int size() {
+        return size;
     }
 
     public void print() {
