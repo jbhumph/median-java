@@ -5,9 +5,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Finder mf = new Finder();
 
-        System.out.println("Welcome to Median Finder!");
+        System.out.println("\n\n\nWelcome to Median Finder!");
+        System.out.println("\nThis app allows the user to continuously input numbers and find the median of the numbers entered.");
+        System.out.println("To exit the app, type 'exit'.");
+        System.out.println();
         while (true) {
-            System.out.print("Enter a number or type 'exit': ");
+            System.out.print("\nEnter a number or type 'exit': ");
             String input = scanner.nextLine();
 
             if (input.equalsIgnoreCase("exit")) break;
@@ -21,7 +24,7 @@ public class Main {
             }
         }
 
-        System.out.println("Goodbye!");
+        System.out.println("Goodbye!\n\n");
         scanner.close();
     } 
 }
