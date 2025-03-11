@@ -12,7 +12,6 @@ John Humphrey
 - [Instructions](#instructions)
 - [About](#about)
 - [Attributions](#attributions)
-- [Screenshots](#screenshots)
 
 
 ## Overview:
@@ -47,6 +46,4 @@ I based both data structures off of some generic examples from Geeks4Geeks. They
 - [GeeksforGeeks : Min-Heap](https://www.geeksforgeeks.org/min-heap-in-java/)
 - [GeeksforGeeks : Max-Heap](https://www.geeksforgeeks.org/max-heap-in-java/)
 
-
-## Screenshots
 
